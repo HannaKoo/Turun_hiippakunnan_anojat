@@ -1,0 +1,29 @@
+echo "# Turun_hiippakunnan_anojat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HannaKoo/Turun_hiippakunnan_anojat.git
+git push -u origin main
+
+hanna-mari@tankken:~/Asiakirjat/Tappo_kuolema_analyysit/suomalaiset-tappo-kuolema(1)/suomalaiset-tappo-kuolema$ grep Applicant_violence *.ann
+116.ann:T5	Applicant_violence 321 401	laicum cum quodam parvo baculo in dorso supra tunicam quinque ictibus percussit.
+145.ann:T9	Applicant_violence 1325 1393	leviter super brachio cum deteriori parte securis percuttere voluit.
+175.ann:T6	Applicant_violence 923 1168	gladiolum suum, quem in fuga pro capitis defensione tenuerat supra caput, ad insequentem se conversus gratia ictus excipiendi eidem layco opponebat et sic longo conflictu vim vi repellendo et se defendendo ac in sinistra manu sua vulnere accepto
+218.ann:T3	Applicant_violence 34 44	interfecit
+235.ann:T5	Applicant_violence 303 360	dictum iuvenem virgis discipline correctionis verberasset
+251.ann:T17	Applicant_violence 638 667	eam extendendo telum inposuit
+251.ann:T18	Applicant_violence 1158 1216	ipsius exponentis voluntatem dicta balista sagittam emisit
+252.ann:T8	Applicant_violence 867 897	eduxit illumque hincinde movit
+252.ann:T9	Applicant_violence 605 651	quendam parvum cultrum ad modum scindi pennium
+289.ann:T6	Applicant_violence 1081 1257	exponens cum lapide, quem de humo reprehendit, quendam Olavum Karlsan unum ex laicis invasoribus predictis, dum adhuc viveret, et in illius anteriori parte capitis sui proiecit
+292.ann:T10	Applicant_violence 320 444	exponens dictum Iacobum cum quadam corda, uti in arcu manuali solita est habere, bis vel ter absque tamen lesione percussit.
+292.ann:T12	Applicant_violence 791 840	exponens Deo volente Iacobum in humum prostravit.
+292.ann:T13	Applicant_violence 956 1114	ille exponens dentibus suis tertium ex articulis manus illius Iacobi dextre apprehendit et vim vi repellere volens tenuit usque ad illius articuli lividitatem
+330.ann:T6	Applicant_violence 147 189	quendam presbyterum insimul interfecerunt,
+332.ann:T4	Applicant_violence 1585 1651	dicti invasoris reparavit eumque exinde securi in capite percussit
+360.ann:T9	Applicant_violence 2688 2783	quodam parvo cultello dictum Olavum, cum alias evadere non posset, in latere sinistro percussit
+376.ann:T6	Applicant_violence 490 524	dictum presbyterum pugno percussus
+390.ann:T5	Applicant_violence 691 697	emisit
+433.ann:T7	Applicant_violence 906 963	ipsum proditorem cultello huiusmodi vulneravit in pectore
+hanna-mari@tankken:~/Asiakirjat/Tappo_kuolema_analyysit/suomalaiset-tappo-kuolema(1)/suomalaiset-tappo-kuolema$
